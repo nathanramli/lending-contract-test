@@ -1,0 +1,13 @@
+[package]
+name = "Decimal"
+version = "0.0.1"
+edition = "2024.beta"
+published-at = "0x6b3402f2048ab5c52f5dac345e2807ec10b2dc7fa10f9c54185158681f70cd72"
+
+[dependencies.Sui]
+git = "https://github.com/MystenLabs/sui.git"
+subdir = "crates/sui-framework/packages/sui-framework"
+rev = "mainnet"
+
+[addresses]
+decimal = "0x6b3402f2048ab5c52f5dac345e2807ec10b2dc7fa10f9c54185158681f70cd72"

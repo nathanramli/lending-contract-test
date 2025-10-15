@@ -1,0 +1,13 @@
+{
+  "packageId": "0x58a4fdbdb45486de7309ebf27659a7547cc6b2cf797cbbf3a4c9fc92c518c356",
+  "upgradeCapId": "0xc960ce429b17d8322253798e741ac90f0277534c2d0065bae175da6ea58ca1a1",
+  "publisherIds": [
+    "0x73d3e1b957f508d144c56201fcdbc1d6e0a9999c9cf528aec53923ee285b7919"
+  ],
+  "marketId": "0x5ad92e1b29d25bc83becf28d3bf33fe147d543fed6de03d3a1f06aa11272291a",
+  "adminCapId": "0xb5423a335d753854de537235649240aab2a2eff3b91d46dbce645a711c7a0ad0",
+  "versionId": "0x3b0264a6223401fda51f691c3b7b8d336fbf104dd1bb14775a9e6901cf431213",
+  "versionCapId": "0xa6035f73d524eb4d938d2aabcd39584c0ffcb505b2a4080589fc68f96cd534c4",
+  "obligationAccessStoreId": "0xd62974a7d5a0d1d9330d7981bdf3cc9d13726b268c86f95be16fb64b9003d7f8",
+  "borrowReferralWitnessList": ""
+}
