@@ -19,6 +19,7 @@ module protocol::app {
   use protocol::incentive_rewards;
   use protocol::error;
   use protocol::apm;
+  use protocol::version::{Self, Version};
   use whitelist::whitelist;
   use protocol::obligation_access::ObligationAccessStore;
   use protocol::obligation_access;
@@ -436,9 +437,12 @@ module protocol::app {
   }  
 
   public fun disable_borrow(
+    version: &Version,
     market: &mut Market,
     ctx: &mut TxContext
   ) {
+    version::assert_current_version(version);
+
     let sender = tx_context::sender(ctx);
 
     let market_uid_mut = market::uid(market);
@@ -460,9 +464,12 @@ module protocol::app {
   }
 
   public fun disable_collateral(
+    version: &Version,
     market: &mut Market,
     ctx: &mut TxContext
   ) {
+    version::assert_current_version(version);
+    
     let sender = tx_context::sender(ctx);
 
     let market_uid_mut = market::uid(market);
