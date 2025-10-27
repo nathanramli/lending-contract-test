@@ -2,7 +2,7 @@
 
 [move]
 version = 3
-manifest_digest = "35DF053CB173CE11F06232AE71D610345AFAA6625C877AF9C65D40BFB8F60755"
+manifest_digest = "ADB0D359E02790ABD1014A934B6DFB1AB8A7363C01DD6F868782484AA2FCF6CB"
 deps_digest = "060AD7E57DFB13104F21BE5F5C3759D03F0553FC3229247D9A7A6B45F50D03A3"
 dependencies = [
   { id = "Pyth", name = "Pyth" },
@@ -46,3 +46,16 @@ source = { local = "../x_oracle" }
 dependencies = [
   { id = "Sui", name = "Sui" },
 ]
+
+[move.toolchain-version]
+compiler-version = "1.58.3"
+edition = "2024"
+flavor = "sui"
+
+[env]
+
+[env.mainnet]
+chain-id = "35834a8a"
+original-published-id = "0x0af386ecb4c80a581682e6c97c7d2499a3d5ed513499aeb778f454aad475da02"
+latest-published-id = "0x0af386ecb4c80a581682e6c97c7d2499a3d5ed513499aeb778f454aad475da02"
+published-version = "1"

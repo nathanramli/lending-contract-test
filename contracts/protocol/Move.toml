@@ -1,6 +1,7 @@
 [package]
 name = "ScallopProtocol"
 version = "0.0.1"
+published-at = "0xb4b3941738323f2623f822124a9c5bdd7b63f6ac4e4af02550d5c20489d767b6"
 
 [dev-dependencies.TestCoin]
 local = "../test_coin"
@@ -29,4 +30,4 @@ local = "../libs/decimal"
 local = "../sui_x_oracle/x_oracle"
 
 [addresses]
-protocol = "0x0"
+protocol = "0xb4b3941738323f2623f822124a9c5bdd7b63f6ac4e4af02550d5c20489d767b6"
